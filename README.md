@@ -1,5 +1,19 @@
-# 📌 **Algoritmos De Ordenamiento**
-### 🧑‍💻 **Estudiante:** Brandon Collaguazo
+# Práctica Teoría de la Complejidad 
+
+### 📌 **Información General**
+
+- **Título de la práctica:** Algoritmos De Ordenamiento
+
+- **Asignatura:** Estructura de Datos
+
+- **Carrera:** Computación
+
+- **Estudiante:** Brandon Collaguazo
+
+- **Fecha:** 11/05/2025
+
+- **Profesor:** Ing. Pablo Torres
+
 ----
 ### 📖 **Descripción:**
 El proyecto permite evaluar la eficiencia de varios métodos de ordenamiento mediante la medición del tiempo que tardan en ordenar listas de diferentes tamaños. Se generan gráficos que muestran el rendimiento de cada método, facilitando la visualización de los resultados.
@@ -54,3 +68,8 @@ Tamaño: 100000, Método: Shell, Tiempo: 9.642755 segundos
 
 ### 📈 **Gráfico**
 ![image](https://github.com/user-attachments/assets/a2aca675-2d56-48d7-81d0-781673af6bcb)
+
+----
+
+### 🎯 **Conclusión:**
+Los resultados muestran que los métodos Burbuja y Burbuja Mejorado tienen un rendimiento muy bajo, con tiempos que crecen rápidamente debido a su complejidad cuadrática ( O(n^2) ), haciendo que sean poco prácticos para listas grandes. Los métodos de Inserción y Selección también presentan una complejidad similar y tiempos elevados, aunque ligeramente mejores. En contraste, el método Shell destaca por su eficiencia, con tiempos mucho menores gracias a su complejidad promedio mejor que ( O(n^2) ), lo que lo hace adecuado para conjuntos de datos grandes.
